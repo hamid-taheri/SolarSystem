@@ -1,0 +1,127 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-m{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 100%;   
+    margin-left: 5px;
+}
+
+#rahnama{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#rahnama:hover{
+    cursor: pointer;
+}
+
+.main-mm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 100%; 
+    margin-right: 10px 10px;
+}
+
+.khorshid{
+    width: 75px;
+    height: 75px;
+}
+
+.noor{
+    width: 75px;
+    height: 75px;
+}
+
+.khorshid:hover{
+    cursor: pointer;
+}
+
+.noor:hover{
+    cursor: pointer;
+}
+
+.saiareh:hover{
+    cursor: pointer;
+}
+
+.saiareh{
+    width: 75px;
+    height: 75px;
+}
+
+.shomaresh1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shomaresh11{
+    width: 55px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.matn{
+    text-align: center;
+}
+
+#f1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#f11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#f111{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1{
+    text-align: center;
+}
+
+.s11{
+    text-align: center;
+}
+
+.s111{
+    text-align: center;
+}
+
+#calculate {
+    background-color: brown;
+}
+
+#calculate-a{
+    color: white;
+}
+
+#d1{
+    color: yellow;
+    background-color: black;
+    text-align: center;
+}

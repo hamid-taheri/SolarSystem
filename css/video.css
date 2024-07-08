@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#video{
+    background-color: brown;
+}
+
+#video-a{
+    color: white;
+}
+
+.v1{
+    width: 360px;
+}
+
+p{
+    text-align: center;
+}
+
+#ul-ul{
+    z-index: 1;
+}

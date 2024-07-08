@@ -1,0 +1,27 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#audio{
+    background-color: brown;
+}
+
+#audio-a{
+    color: white;
+}
+
+.d1{
+margin-top: 5px;
+position: inherit;
+}
+
+p{
+    text-align: center;
+}
+
+#ul-ul{
+    z-index: 1;
+}

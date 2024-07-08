@@ -1,0 +1,28 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-rows: 200px;
+    grid-auto-rows: 200px;
+    gap: 2px;
+}
+
+#images {
+    background-color: brown;
+}
+
+#images-a{
+    color: white;
+}
+
+.i1{
+    margin-right: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.i1:hover{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+

@@ -1,0 +1,32 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#i1{
+    margin: 0;
+    margin-top: 10px;
+    height: 489px;
+}
+
+@media screen and (max-width: 900px){
+    #i1{
+        height: 425px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #i1{
+        height: 314px;
+    }
+}
+
+#about {
+    background-color: brown;
+}
+
+#about-a{
+    color: white;
+}

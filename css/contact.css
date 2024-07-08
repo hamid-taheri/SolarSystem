@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+p{
+    text-align: center;
+}
+
+#contact{
+    background-color: brown;
+}
+
+#contact-a{
+    color: white;
+}
+
+form{
+text-align: center;
+}
+
+#myText{
+    width: 400px;
+    height: 200px;
+}
+
+#myText:focus{
+    background-color: yellow;
+}
+
+button:active{
+    background-color: red;
+}
+
+
+@media screen and (max-width:600px){
+    textarea{
+        height: 50px;
+    }
+}

@@ -1,0 +1,22 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#article{
+    background-color: brown;
+}
+
+#article-a{
+    color: white;
+}
+
+.i1{
+    width: 200px;
+}
+
+p{
+    text-align: center;
+}

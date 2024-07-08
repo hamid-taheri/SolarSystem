@@ -1,0 +1,231 @@
+*{
+    font-family: koodak;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 50px 900px 230px;
+    background-color: yellow;
+    gap: 2px;
+}
+
+header{
+    background-color: orange;
+    grid-column: 4/-1 ;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#top-menu{
+    background-color: wheat;
+    grid-column: 4/-1;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#ul-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#ul-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#right-menu{
+    background-color: lightblue;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    padding-inline-start: 0;
+}
+
+li{
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    background-color: lightskyblue;
+    grid-column: 4/-1;
+    grid-row: 3/4;
+}
+
+footer{
+    background-color: rgb(224, 208, 154);
+    grid-column: 1/-1;
+    grid-row: 4/-1;
+}
+
+#ul-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.i-footer{
+    width: 70px;
+    height: 70px;
+}
+
+
+.i-right{
+    width: 100px;
+    height: 100px;
+}
+
+#f-d-1, #f-d-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1{
+    margin: 7px;
+}
+
+#d-f-2{
+    text-align: center;
+    border-top: yellow solid 2px;
+}
+
+@font-face {
+    font-family: koodak;
+    src: url(../font/B\ Koodak\ Bold_YasDL.com.ttf);
+}
+
+#ul-ul{
+    display: none;
+}
+
+#manzoomeh:hover #ul-ul{
+    display: block;
+}
+
+#manzoomeh{
+    position: relative;
+}
+
+#ul-ul{
+    position:absolute;
+    top: 50px;
+    background-color: wheat;
+    height: auto;    
+}
+
+#li-li:hover{
+    height: 100%;
+    width: 100%;
+}
+
+#ul-top{
+    height: 50px;
+}
+
+#ul-top li{
+    height: 100%;
+    width: 100%;
+}
+
+#ul-top li a{
+    height: 25px;
+}
+
+#ul-top :hover{
+    background-color: brown;
+    color: white;
+}
+
+#ul-top :active{
+    color: red;
+}
+
+a{
+    color: blue;
+}
+
+#ul-right li :hover > img{
+    transform: scale(1.4);
+}
+
+#ul-footer li :hover > img{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+@media screen and (max-width:900px){
+    header{
+        grid-column: 1/-1 ;
+    }
+    
+    #top-menu{
+        grid-column: 1/-1;
+    }
+
+    #right-menu{
+        display: none;
+    }
+
+    main{
+        grid-column: 1/-1;
+    }
+}
+
+@media screen and (max-width:600px){
+    #ul-top{
+        flex-direction: column;
+    }
+
+    #manzoomeh:hover #ul-ul{
+        display: none;
+    }
+    
+    #container{
+        grid-template-rows: 50px 250px 900px 230px;
+    }
+
+    #ul-top{
+        height: 100%;
+    }
+    
+    #ul-top li{
+        height: 100%;
+    }
+    
+    #ul-top li a{
+        height: 100%;
+    }
+}
